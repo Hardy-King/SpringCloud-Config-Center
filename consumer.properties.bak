@@ -1,0 +1,9 @@
+server.port=9001
+
+eureka.client.service-url.defaultZone=http://euk1.com:7001/eureka/
+
+spring.application.name=consumer-node1
+
+eureka.instance.metadata-map.gk=goodkinghahah
+
+ provider.ribbon.NFLoadBalancerRuleClassName=com.netflix.loadbalancer.RandomRule
